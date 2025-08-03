@@ -21,8 +21,8 @@ resource "azurerm_resource_group" "u8uis7" {
 }
 
 
-resource "azurerm_storage_account" "stg685" {
-    depends_on = [ azurerm_resource_group.ok223 ]
+  resource "azurerm_storage_account" "stg685" {
+  depends_on = [azurerm_resource_group.uuis7]
   name                     = "alokssa7552"
   resource_group_name      = "alok-rg234"
   location                 = "east us"
