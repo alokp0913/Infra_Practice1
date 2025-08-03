@@ -15,14 +15,14 @@ resource "azurerm_storage_account" "stg65" {
 
 
 
-resource "azurerm_resource_group" "uuis7" {
+resource "azurerm_resource_group" "u8uis7" {
   name     = "alok-rg2134"
   location = "east us"
 }
 
 
-resource "azurerm_storage_account" "stg65" {
-    depends_on = [azurerm_resource_group.uuis7]
+  resource "azurerm_storage_account" "stg685" {
+  depends_on = [azurerm_resource_group.uuis7]
   name                     = "alokssa7552"
   resource_group_name      = "alok-rg234"
   location                 = "east us"
